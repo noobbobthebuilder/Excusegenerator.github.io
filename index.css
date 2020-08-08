@@ -1,0 +1,38 @@
+body { 
+        font-family: "Times NewRoman";
+        text-align:center;
+        background:#212122;
+          color: #F0FFFF}
+h1 {   font-size:50px; 
+       text-shadow: 1px 1px 1px black;
+       
+    }
+h3{  text-align:center;
+    
+   
+  }
+
+.button { border-radius: 15px;
+           font-size :20px;
+          }
+.button1 {color: black;
+         background-color : #789bd5;
+        padding :20px;
+        text-align:center;
+        display: inline-block:
+        margin : 10px 10px;
+        }          
+.footer{ postion: fixed;
+         text-align: center ;
+          bottom: 7px;
+       }
+ a:link {color:green;
+         }
+a:visited{color:GREEN;
+         }
+a:hover {color: #789bd5;
+        }
+a:active { color:#dcac23;
+         }
+
+
