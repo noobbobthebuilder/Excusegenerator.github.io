@@ -5,7 +5,8 @@
  	"YOU ARE ANNOYING",
  	"REMEMBER THAT GIRL YOU INTRODUCED ME TOO?   YEAH....",
  	"I HAD OTHER EXISTENTIAL CRISIS TO PAY ATTENTION",
- 	"I HAD TO GO ON AN IMPORTANT DATE"
+ 	"I HAD TO GO ON AN IMPORTANT DATE",
+ 	"ALLERGIES"
  	 );
 
       
@@ -29,6 +30,15 @@
  	
  	 );
       
+                var Whybirthday = new Array
+       (
+        
+ 	"  AM SORRY,YOU ARE JUST NOT IMPORTANT ENOUGH",
+	"  HAD IMPORTANT THINGS TO DO, LIKE FORGETING YOUR BIRTHDAY",
+	"  TO LOOK COOL",
+	"  CAUSE I HATE YOU", 
+ 	
+ 	 );
       
       
       function getLeave() {
@@ -46,6 +56,13 @@
         document.getElementById('poorly').innerHTML = 
           Whypoorly[Math.floor(Math.random() * Whypoorly.length)];
       }
+      
+      
+                     function getBirthday() {
+        document.getElementById('birthday').innerHTML = 
+          Whybirthday[Math.floor(Math.random() * Whybirthday.length)];
+      }
+      
       
       
       
